@@ -4,7 +4,7 @@ import { useRive, useStateMachineInput } from "@rive-app/react-canvas";
 export default function Home() {
   const STATE_MACHINE_NAME = "form_in_progress";
   const { RiveComponent, rive } = useRive({
-    src: "robotV1.riv",
+    src: "fish_gameV1.riv",
     stateMachines: "State Machine 1",
     autoplay: true
   });
